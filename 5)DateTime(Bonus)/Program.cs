@@ -10,5 +10,4 @@ DateTime guncelTarih = DateTime.Now;
 int yasGun = guncelTarih.Day - dogumGunu.Day;
 int yasAy = guncelTarih.Month - dogumGunu.Month;
 int yasYil = guncelTarih.Year - dogumGunu.Year;
-
 Console.WriteLine("Yaşınız : " + yasGun + "/" + yasAy + "/" + yasYil);
